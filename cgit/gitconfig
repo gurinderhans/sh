@@ -1,0 +1,6 @@
+[user]
+	name = Gurinder Hans
+	email = tohansg@gmail.com
+[core]
+	autocrlf = true
+	whitespace = cr-at-eol

@@ -1,0 +1,7 @@
+.DS_Store
+vim/viminfo
+vim/vimplugins/
+vim/autoload/
+vim/.netrwhist
+bin
+ssh_keys

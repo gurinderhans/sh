@@ -1,0 +1,14 @@
+unbind C-b
+set -g prefix C-\\
+bind C-\\ last-window
+
+## rebind pane tiling
+bind v split-window -h -c "#{pane_current_path}"
+bind h split-window -v -c "#{pane_current_path}"
+bind c new-window -c "#{pane_current_path}"
+
+## style status line
+set-option -g status-justify centre
+set -g status-style bg=#7FA86E,fg=black
+set -g status-right ''
+set -g status-left ''
