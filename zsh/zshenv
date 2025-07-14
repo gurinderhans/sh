@@ -1,0 +1,2 @@
+export CSH=$HOME/code/sh
+export ZDOTDIR=$CSH/zsh

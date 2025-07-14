@@ -3,5 +3,8 @@ vim/viminfo
 vim/vimplugins/
 vim/autoload/
 vim/.netrwhist
+zsh/.zsh_sessions/
+zsh/.zsh_history
+zsh/.zcompdump
+tmp
 bin
-ssh_keys

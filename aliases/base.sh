@@ -19,3 +19,14 @@ alias docs='cd ~/Documents'
 alias mkdir='mkdir -pv'
 alias grep='grep --color=auto'
 alias sshi='ssh -ServerAliveInterval=15'
+
+vsc() {
+  local dir="${1:-.}"
+  open -a "Visual Studio Code" "$dir"
+}
+
+fs() {
+  # replace * w/ .*
+  pattern=$(echo "$1" | sed 's/\*/.*/g')
+  grep -r -I -n -E "$pattern" .
+}

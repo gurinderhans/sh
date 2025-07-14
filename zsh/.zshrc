@@ -1,5 +1,3 @@
-export CSH=$HOME/code/sh
-
 # add color to terminal
 export CLICOLOR=1
 export LSCOLORS=Bxfxcxdxbxegbhabagacad
@@ -12,6 +10,9 @@ stty -ixon
 
 # disable lesshst file
 export LESSHISTFILE=-
+
+# move python history file; works for py >=3.13
+export PYTHONHISTORY=$CSH/tmp/py_hist
 
 # zsh enable case-insensitive matching
 if [[ "$SHELL" == *"zsh"* ]]; then
